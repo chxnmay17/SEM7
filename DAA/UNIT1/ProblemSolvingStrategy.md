@@ -94,5 +94,3 @@ if (safe(row, col)) {
 ✅ **Exam Tip**: Always write **definition → key steps → examples → diagram** for each strategy to get full marks.
 
 ---
-
-Do you want me to also make a **one-page DAA “Problem-Solving Strategies” diagram sheet** so you can memorize all 4 approaches visually in under 30 seconds? That’s very useful for last-minute revision.
