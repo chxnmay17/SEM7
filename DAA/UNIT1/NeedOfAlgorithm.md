@@ -1,5 +1,5 @@
 
-*"Given the fastest computer and infinite memory, do we still need to study algorithms?"* — concise, **DAA-specific**, and **scoring-focused**.
+*"Given the fastest computer and infinite memory, do we still need to study algorithms?".
 
 ---
 
