@@ -1,0 +1,16 @@
+# 📚 SPPU Computer Engineering Semester 7 Notes (2019 Pattern)
+
+This repository contains subject-wise notes for **Semester 7** of the **B.E. Computer Engineering** program under **Savitribai Phule Pune University (SPPU)** — **2019 Pattern**.
+
+✅ Suitable for students appearing in **2023-2024** or later academic years following the 2019 curriculum.
+
+---
+
+## 📖 Subjects Included
+
+1. **DAA** – Design and Analysis of Algorithms  
+2. **STQA** – Software Testing and Quality Assurance  
+3. **BT** – Blockchain Technology  
+4. **ML** – Machine Learning  
+5. **CS** - Cyber Security
+
