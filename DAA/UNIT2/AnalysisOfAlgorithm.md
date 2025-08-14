@@ -44,9 +44,8 @@ for(i=0; i<n; i++) if(arr[i]==key) return i; // Not found → O(n)
 * **Nature:** **Realistic** measure of performance.
 * **Formula:**
 
-$$
-T_{\text{avg}}(n) = \sum_{i} P(I_i) \cdot T(I_i)
-$$
+<img width="324" height="82" alt="image" src="https://github.com/user-attachments/assets/7dfe1299-e4a3-44c6-ba49-2ef559210022" />
+
 where $P(I_i)$ = probability of $i$-th input.
 
 * **Example (Linear Search):** If element is equally likely at any position or absent:
