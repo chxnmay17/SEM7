@@ -51,9 +51,8 @@ Filtering methods evaluate features **independently** of the ML algorithm, using
 * **Idea:** Remove features highly correlated with each other or target (redundant information).
 * **Pearson Correlation Formula:**
 
-  $$
-  r = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum (x_i - \bar{x})^2 \sum (y_i - \bar{y})^2}}
-  $$
+ <img width="336" height="79" alt="image" src="https://github.com/user-attachments/assets/035a5d24-fd31-4a44-a75c-186f7a05e18f" />
+
 * **Rule:** Drop one feature if correlation > threshold (e.g., 0.9).
 * **Example:** "Height in cm" and "Height in inches" — redundant.
 
@@ -64,9 +63,8 @@ Filtering methods evaluate features **independently** of the ML algorithm, using
 * **Idea:** Measures independence between categorical feature and target variable.
 * **Formula:**
 
-  $$
-  \chi^2 = \sum \frac{(O - E)^2}{E}
-  $$
+  <img width="248" height="80" alt="image" src="https://github.com/user-attachments/assets/3d3a6b81-4236-4e2e-b029-ea6811212f05" />
+
 
   where **O** = observed frequency, **E** = expected frequency.
 * **Use case:** Feature selection in classification with categorical features.
@@ -87,9 +85,8 @@ Filtering methods evaluate features **independently** of the ML algorithm, using
 * **Idea:** Checks if feature means differ significantly between classes (numerical features, categorical target).
 * **Formula (F-statistic):**
 
-  $$
-  F = \frac{\text{Between-group variance}}{\text{Within-group variance}}
-  $$
+  <img width="339" height="69" alt="image" src="https://github.com/user-attachments/assets/01abd21a-7e31-4250-9f67-d25ddbfe7298" />
+
 * **Use case:** Medical data where lab values differ between disease groups.
 
 ---
