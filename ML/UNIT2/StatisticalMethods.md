@@ -33,9 +33,8 @@ Describe **variability** in the data.
 * **Range:** Max – Min value.
 * **Variance:**
 
-  $$
-  \sigma^2 = \frac{\sum (x_i - \bar{x})^2}{n}
-  $$
+ <img width="201" height="73" alt="image" src="https://github.com/user-attachments/assets/514ad841-67be-4d60-8ac8-aa11ab3250f1" />
+
 * **Standard Deviation (SD):** Square root of variance; shows average deviation from mean.
 * **Interquartile Range (IQR):** Spread of middle 50% (Q3 – Q1).
 
@@ -72,9 +71,8 @@ Shows **relationship strength** between two variables.
 
 * **Pearson’s correlation coefficient (r):**
 
-  $$
-  r = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum (x_i - \bar{x})^2 \sum (y_i - \bar{y})^2}}
-  $$
+ <img width="317" height="89" alt="image" src="https://github.com/user-attachments/assets/140d2ef2-782b-4b4f-9c75-619e740f1562" />
+
 
   * $r$ close to 1 → strong positive relation
   * $r$ close to -1 → strong negative relation
