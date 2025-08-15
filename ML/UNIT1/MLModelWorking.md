@@ -123,4 +123,3 @@ An ML model **learns** from a dataset using an algorithm, optimizes parameters t
 
 ---
 
-If you want, I can also make a **clear labeled diagram** showing all steps in a **flowchart style** so you can directly copy into your exam sheet. Would you like me to prepare that?
