@@ -45,9 +45,11 @@ $$
 ---
 
 ## **4. Diagram **
+<img width="588" height="37" alt="image" src="https://github.com/user-attachments/assets/6f1f9dcf-1af7-408f-9ee0-30372deda32b" />
 
 <img width="891" height="626" alt="image" src="https://github.com/user-attachments/assets/5f8ab564-f3d7-44a9-b092-d3a3e2a37522" />
 
+<img width="1007" height="361" alt="image" src="https://github.com/user-attachments/assets/91572015-eb46-49ef-8446-82196aa79da6" />
 
 
 ```
