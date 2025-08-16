@@ -46,7 +46,6 @@ $$
 
 ## **4. Diagram **
 
-```
 <img width="891" height="626" alt="image" src="https://github.com/user-attachments/assets/5f8ab564-f3d7-44a9-b092-d3a3e2a37522" />
 
 
