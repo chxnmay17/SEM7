@@ -33,10 +33,6 @@ Even with the **fastest computer** and **infinite memory**, studying algorithms 
 
 * Cloud computing and GPUs need algorithms optimized for parallel execution.
 
-**Maintainability & Readability**
-
-* Algorithm design principles ensure code is understandable and modifiable.
-
 **Time and Space Complexity Trade-offs**
 
 * Good algorithm design finds a balance between execution speed and memory usage.
