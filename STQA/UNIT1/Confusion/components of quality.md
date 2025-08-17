@@ -165,3 +165,4 @@ Software Quality is the **degree to which software meets customer requirements, 
 ---
 <img width="820" height="611" alt="image" src="https://github.com/user-attachments/assets/6ee511cf-25c7-498b-8419-5cd7376b35a1" />
 <img width="830" height="610" alt="image" src="https://github.com/user-attachments/assets/46d4e45e-7380-4e5f-8bd7-4792dae107b6" />
+<img width="920" height="2618" alt="image" src="https://github.com/user-attachments/assets/ae456b25-ecfb-4c81-98ff-f2bfb4b901b7" />
