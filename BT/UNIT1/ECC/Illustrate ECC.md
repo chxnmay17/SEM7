@@ -52,9 +52,8 @@ $$
 <img width="1007" height="361" alt="image" src="https://github.com/user-attachments/assets/91572015-eb46-49ef-8446-82196aa79da6" />
 
 
-```
 
----
+
 
 ## **5. Advantages of ECC**
 
