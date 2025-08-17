@@ -59,7 +59,7 @@
 ---
 
 # **According to SPPU Syllabus(Types)**
-Got it 👍 Since your syllabus specifies **Application Security (Database, E-mail, and Internet)**, here are concise exam-oriented notes tailored for **Cyber Security** (5 marks):
+
 
 ---
 
