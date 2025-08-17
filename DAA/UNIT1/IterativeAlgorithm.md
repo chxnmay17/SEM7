@@ -44,6 +44,10 @@ When designing iterative algorithms in **Design and Analysis of Algorithm (DAA)*
 ### **(iv) Maintenance of Invariants**
 
 * Maintain certain properties after each iteration to ensure correctness (Loop Invariant Property).
+* **Example**:Finding the Maximum Number in a List
+*At the start of each loop, `max_so_far` stores the biggest number we've seen so far.
+This property stays true after every iteration, so by the end of the loop, `max_so_far` holds the correct maximum value.
+
 
 ### **(v) Efficiency**
 
