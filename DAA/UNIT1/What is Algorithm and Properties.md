@@ -31,4 +31,4 @@
    - Algorithm should be applicable to a class of problems, not just one specific case.
    - Example: Euclid’s GCD algorithm works for any pair of integers.
 
-## Diagram – Algorithm Process
+
