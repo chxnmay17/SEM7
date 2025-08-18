@@ -42,15 +42,24 @@ Problem → Divide → Subproblem 1, Subproblem 2 → Solve → Combine → Solu
 
 ## **3. Dynamic Programming (DP)**
 
-* **Idea**: Solve complex problems by **breaking them into overlapping subproblems**, storing results to avoid recomputation.
+* **Idea**: Break a problem into smaller overlapping subproblems, solve each once, and store their solutions to avoid solving them again.
+This avoids redundant work and is especially useful when recursion leads to repeated calculations.
+
 * **Steps**:
 
-  1. Define **subproblems**.
-  2. **Store** results (memoization/tabulation).
-  3. Build the solution from stored results.
+	1. Break the problem into smaller pieces.
+	2. Solve each small piece only once.
+	3. Save the answers(memoization/tabulation).
+  4. Use those saved answers to build up the final answer.
+
 * **Examples**:
 
   * Fibonacci sequence, Matrix Chain Multiplication, Longest Common Subsequence.
+
+<img width="951" height="213" alt="image" src="https://github.com/user-attachments/assets/dec94b37-81f2-42e6-8d00-ee343ce3d8d9" />
+
+
+
 * **Diagram** (Overlapping subproblems):
 
 ```
@@ -65,20 +74,16 @@ Problem → Divide → Subproblem 1, Subproblem 2 → Solve → Combine → Solu
 
 ## **4. Backtracking**
 
-* **Idea**: Try building the solution step-by-step; if a step leads to a **dead end**, backtrack and try another path.
+* **Idea**: Try to build a solution one step at a time.
+If at any point, the current step can’t lead to a valid solution, go back (backtrack) and try a different option.
+
 * **When to Use**: Problems with **constraints** and **multiple possible solutions**.
 * **Examples**:
 
   * N-Queens problem, Sudoku solver, Graph coloring.
 * **Code snippet** (N-Queens simplified):
 
-```c
-if (safe(row, col)) {
-    placeQueen(row, col);
-    if (solve(nextRow)) return true;
-    removeQueen(row, col); // backtrack
-}
-```
+
 
 ---
 
