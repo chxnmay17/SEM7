@@ -9,13 +9,12 @@
 * Formal definition:
   $T(n) = \Omega(g(n))$ if ∃ constants $c>0, n_0$ such that
 
-  $$
-  T(n) \ge c \cdot g(n) \quad \forall n \ge n_0
-  $$
+  <img width="230" height="46" alt="image" src="https://github.com/user-attachments/assets/ab141f85-5ea3-4ee6-aba0-8cca41b27b27" />
+
 * **Interpretation**:
   Algorithm will take **at least** proportional to $g(n)$ time for large inputs.
-* **Example**:
-  If $T(n) = 3n^2 + 4n$, then $T(n) = \Omega(n^2)$.
+<img width="472" height="86" alt="image" src="https://github.com/user-attachments/assets/25868d93-1043-412f-8504-f81ecea70850" />
+
 
 ---
 
@@ -25,13 +24,12 @@
 * Formal definition:
   $T(n) = \Theta(g(n))$ if:
 
-  $$
-  c_1 \cdot g(n) \le T(n) \le c_2 \cdot g(n) \quad \forall n \ge n_0
-  $$
+  <img width="410" height="45" alt="image" src="https://github.com/user-attachments/assets/7ce0ec78-9ebe-4db8-9651-3ff6478eecd1" />
+
 * **Interpretation**:
   Algorithm’s running time is **asymptotically equal** to $g(n)$.
-* **Example**:
-  $T(n) = 5n^2 + 3n = \Theta(n^2)$.
+<img width="310" height="71" alt="image" src="https://github.com/user-attachments/assets/6e7b00d9-4cd8-42f6-ad18-3d4a00744cfa" />
+
 
 ---
 
