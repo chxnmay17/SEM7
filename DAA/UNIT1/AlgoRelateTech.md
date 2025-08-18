@@ -68,4 +68,5 @@ User gets optimized route
 Remember **"E-S-O-S-A"** → Efficiency, Scalability, Optimization, Security, Automation → 5 key ways algorithms relate to technology.
 
 ---
+<img width="1036" height="2579" alt="image" src="https://github.com/user-attachments/assets/bc2f6447-a2e2-460e-8379-1222fca0fabf" />
 
