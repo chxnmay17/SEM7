@@ -159,5 +159,98 @@ For **7 marks** – write **definitions (2M)**, **examples with key points (3M)*
 
 
 
+---
+
+## ✅ 2. **Probabilistic Model – DETAILED**
+
+A **probabilistic model** is a type of machine learning model that makes decisions based on **probabilities**.
+
+> It tries to **figure out how likely** it is that something belongs to a certain class (like cat or dog) and then **chooses the class with the highest probability**.
+
+---
+
+## 💡 Example to Understand
+
+Let’s say we want to guess if an email is **spam** or **not spam**.
+
+* The model looks at the words in the email (like "free", "buy", "offer").
+* Based on past emails, it knows how **likely** each word is to appear in spam or not-spam.
+* Then, it calculates the **total probability** that this email is spam.
+* If the chance of being spam is higher than not-spam, it labels it as **spam**.
+
+---
+
+## 🔍 Key Points Explained Simply
+
+### 1. **Learns Probability Distributions**
+
+* The model **studies the data** and learns how features (like words, numbers, colors, etc.) are **spread out** in each class.
+* For example:
+
+  * In spam emails, the word “free” appears in 80% of messages.
+  * In normal emails, it only appears in 10%.
+
+### 2. **Uses Bayes’ Theorem**
+
+* Many probabilistic models (like **Naive Bayes**) use a math rule called **Bayes' Theorem**.
+* This helps the model calculate:
+
+  > “Given these features, what is the chance this belongs to Class A or Class B?”
+
+### 3. **Handles Uncertainty and Overlap**
+
+* Real-world data often isn’t clean. Sometimes a message might look **a little like spam and a little like not-spam**.
+* Probabilistic models don’t just say “yes” or “no” — they give a **percentage or probability**.
+
+  * Example:
+
+    * "70% chance this is spam"
+    * "30% chance this is not spam"
+
+This helps deal with **uncertainty**.
+
+---
+
+## 🧠 How It Works (Step-by-Step)
+
+1. **Learn from data**
+
+   * The model learns how often certain features appear in each class.
+
+2. **Get a new data point**
+
+   * Like a new email or a photo.
+
+3. **Calculate probabilities**
+
+   * What’s the chance this belongs to each class?
+
+4. **Choose the highest one**
+
+   * The class with the highest probability is the prediction.
+
+---
+
+## ✅ Summary Table
+
+| Feature              | Simple Explanation                      |
+| -------------------- | --------------------------------------- |
+| Based on             | Probability and statistics              |
+| Learns               | How features appear in each class       |
+| Makes predictions by | Calculating and comparing probabilities |
+| Handles              | Uncertainty and overlapping data        |
+| Common tool used     | Bayes' Theorem                          |
+| Example model        | Naive Bayes classifier                  |
+
+---
+
+## 🔁 In One Line:
+
+> **Probabilistic models** guess the most likely class for a data point by looking at the **probabilities of different outcomes**, based on what they learned from past data.
+
+---
+
+
+
 
 
