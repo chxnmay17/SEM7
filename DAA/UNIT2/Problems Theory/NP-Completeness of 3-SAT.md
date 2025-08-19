@@ -1,29 +1,17 @@
 
 
----
 
-# SAT, 3-SAT & NP-Completeness of 3-SAT
-
-## 1) Definitions
-
-* **SAT (Boolean Satisfiability)**
-  Given a Boolean formula Φ over variables $x_1,\dots,x_n$, decide whether there exists a truth assignment making Φ **true**.
-  *Cook–Levin Theorem*: **SAT is NP-complete.**
-
-* **3-SAT (3-CNF-SAT)**
-  A **restriction of SAT** where Φ is in **Conjunctive Normal Form (CNF)** and **each clause has exactly 3 literals** (e.g., $(x \lor \lnot y \lor z)$).
-  **Decision**: Is there an assignment that satisfies all 3-literal clauses?
 
 ---
 
-## 2) 3-SAT is in NP (Membership)
+##  3-SAT is in NP (Membership)
 
 * Given an assignment, we can check each 3-literal clause in **O(1)** and all clauses in **O(m)** (m = #clauses) → **polynomial time verification**.
   ⇒ **3-SAT ∈ NP**.
 
 ---
 
-## 3) NP-Completeness of 3-SAT (Proof Outline)
+##  NP-Completeness of 3-SAT (Proof Outline)
 
 To prove NP-complete: **(i) in NP** (above) **+ (ii) NP-hard** via **polynomial-time reduction** from a known NP-complete problem.
 We reduce **SAT ≤p 3-SAT**.
@@ -41,9 +29,8 @@ Let clause $C$ contain literals $a_1,\dots,a_k$.
 * **If k = 3**: keep as is.
 * **If k ≥ 4 (chain with new vars $y_1,\dots,y_{k-3}$)**:
 
-  $$
-  (a_1 \lor a_2 \lor y_1) \;\land\; (\lnot y_1 \lor a_3 \lor y_2)\;\land\;\dots\;\land\;(\lnot y_{k-4} \lor a_{k-2} \lor y_{k-3}) \;\land\; (\lnot y_{k-3} \lor a_{k-1} \lor a_k)
-  $$
+ <img width="283" height="187" alt="image" src="https://github.com/user-attachments/assets/6ae12037-cfae-45bb-bf9e-793127622742" />
+
 * **Size & time**: introduces at most $k-3$ new variables/clauses per long clause → **linear blow-up**, overall **polynomial time**.
 
 #### Correctness (equivalence) sketch
