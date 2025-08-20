@@ -95,4 +95,12 @@ For 7 marks:
 * Add diagram (1 mark)
 
 ---
+| Feature                 | **Backward Elimination**                                   | **Recursive Feature Elimination (RFE)**                    |
+| ----------------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
+| **Type**                | Statistical method                                         | Machine learning-based method                              |
+| **Based on**            | p-values (from regression)                                 | Model performance (feature importance)                     |
+| **Works with**          | Mainly linear models (like Linear Regression)              | Any model with `coef_` or `feature_importances_`           |
+| **Elimination Process** | Removes **least significant** feature based on **p-value** | Removes **least important** feature based on model weights |
+| **Re-training**         | Yes, retrains model after each removal                     | Yes, retrains model recursively                            |
+| **Stopping Criteria**   | All remaining features have p < threshold (e.g., 0.05)     | Desired number of features reached                         |
 
