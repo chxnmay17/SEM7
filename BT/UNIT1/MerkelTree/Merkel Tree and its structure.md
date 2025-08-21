@@ -28,13 +28,8 @@
 
 ## **Diagram (Exam-friendly)**
 
-```
-            [Merkle Root]
-               /    \
-        Hash(T1+T2)  Hash(T3+T4)
-         /     \        /     \
-    Hash(T1) Hash(T2) Hash(T3) Hash(T4)
-```
+<img width="828" height="716" alt="image" src="https://github.com/user-attachments/assets/9275909d-f168-4caf-a702-2e10c4e9e8e6" />
+
 
 ---
 
