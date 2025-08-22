@@ -3,16 +3,51 @@
 
 ## **Entry & Exit Criteria of Testing**
 
-### **1. Entry Criteria**
 
-* **Definition:** Conditions that must be fulfilled **before testing can begin**.
-* **Purpose:** Ensures testing starts only when prerequisites are ready.
-* **Examples:**
+---
 
-  * Approved **SRS/Design documents** are available.
-  * Test environment (hardware/software) is set up.
-  * Test data is prepared.
-  * Code is unit tested and stable.
+## **1. Entry Criteria**
+
+### **Definition**
+
+Entry criteria are **conditions or requirements that must be satisfied before testing can officially start.**
+👉 Think of it as a **“checklist before boarding a flight”** – unless all conditions are met, the flight (testing) won’t take off.
+
+---
+
+### **Purpose**
+
+* To make sure testing begins **only when everything is ready**.
+* Avoids **wasting time** testing incomplete or unstable code.
+* Ensures **quality of testing** by having all resources (documents, environment, test data) available.
+
+
+---
+
+### **Examples of Entry Criteria**
+
+1. **Approved SRS/Design Documents**
+   → Testers must know *what to test* → need clear requirements & design.
+
+2. **Test Environment Set Up (Hardware/Software)**
+   → Without proper environment (servers, OS, tools), testing can’t be executed.
+
+3. **Test Data Prepared**
+   → Realistic data must exist for meaningful test execution.
+
+4. **Code is Unit Tested and Stable**
+   → Developers finish unit testing → ensures major bugs are fixed before testers start.
+
+---
+
+### **In Short (Exam Writing Version)**
+
+**Entry Criteria** are the conditions that must be met before testing begins.
+**Purpose:** To ensure testing is carried out effectively with proper resources and stable code.
+**Examples:** Approved SRS/design docs, test environment setup, test data availability, and unit-tested stable code.
+
+
+
 
 ---
 
