@@ -6,3 +6,4 @@
 | **Focus**       | What, who, when, and how testing will be done                                             | General standards, methods, and testing principles                                   |
 | **Level**       | Detailed & dynamic (can change with project needs)                                        | Static & long-term (rarely changes)                                                  |
 | **Example**     | Banking app project → modules to test, tools, schedule                                    | Organization mandates automation + defect severity levels                            |
+<img width="948" height="418" alt="image" src="https://github.com/user-attachments/assets/cbcec7b2-7e13-4730-9b83-d5b123e90061" />
