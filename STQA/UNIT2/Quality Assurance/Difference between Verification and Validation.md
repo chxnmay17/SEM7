@@ -25,15 +25,25 @@
 
 ### **Comparison Table**
 
-| Aspect           | Verification                       | Validation                         |
-| ---------------- | ---------------------------------- | ---------------------------------- |
-| **Definition**   | Are we building the product right? | Are we building the right product? |
-| **Focus**        | Process compliance                 | User requirements fulfillment      |
+
+
+
+
+
+| **Aspect**   | **Verification**                             | **Validation**                                        |
+| ------------ | -------------------------------------------- | ----------------------------------------------------- |
+| **Question** | *Are we building the product right?*         | *Are we building the right product?*                  |
+| **Focus**    | Conformance to **specifications or design**  | Conformance to **user needs or requirements**         |
+| **Purpose**  | Ensure the product meets **technical specs** | Ensure the product fulfills its **intended use**      |
 | **Type**         | Static (without code execution)    | Dynamic (with code execution)      |
+| **Timing**   | Done **during development**                  | Done **after or at the end of development**           |
+| **Methods**  | Reviews, inspections, walkthroughs, testing  | User testing, feedback, beta testing, pilots          |
+| **Example**  | "Does the code follow the design doc?"       | "Does the product actually solve the user's problem?" |
 | **Performed By** | Developers, QA team                | Testers, End-users                 |
 | **Example**      | Reviewing SRS, design, code        | Executing test cases, UAT          |
 
 ---
+
 
 ### **Diagram**
 
