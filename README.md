@@ -1,3 +1,15 @@
+
+---
+
+### 🌟 Support 
+
+If you find this useful, please consider **giving it a star**! It helps others discover it.
+Thanks for your support! 🙌
+
+---
+
+Would you like it to be more formal, fun, or minimalist? I can tailor it to your tone.
+
 # 📚 SPPU Computer Engineering Semester 7 Notes (2019 Pattern)
 
 This repository contains subject-wise notes for **Semester 7** of the **B.E. Computer Engineering** program under **Savitribai Phule Pune University (SPPU)** — **2019 Pattern**.
