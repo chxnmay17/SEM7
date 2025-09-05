@@ -8,7 +8,7 @@ Thanks for your support! 🙌
 
 ---
 
-Would you like it to be more formal, fun, or minimalist? I can tailor it to your tone.
+
 
 # 📚 SPPU Computer Engineering Semester 7 Notes (2019 Pattern)
 
